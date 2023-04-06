@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FitTracker</string>
+    <string name="advice_for_free">Advice for free!</string>
+    <string name="get_started">Get Started</string>
+    <string name="days_60">Days 60</string>
+    <string name="medium_workout">Medium Workout</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="pro">Pro</string>
+    <string name="advanced_workout">Advanced Workout</string>
+    <string name="beginner">Beginner</string>
+    <string name="nutrition_tips">Nutrition Tips</string>
 </resources>

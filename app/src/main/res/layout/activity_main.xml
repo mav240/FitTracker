@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.fittracker.MainActivity">
 
 
 
@@ -46,7 +46,9 @@
                 android:background="@drawable/backgroundcrop"
                 android:orientation="vertical"
                 >
+
                 <LinearLayout
+                    android:onClick="Beginner"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
@@ -66,9 +68,9 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="Beginner"
+                            android:text="@string/beginner"
                             android:textColor="#ff000000"
-                            android:textSize="20.0dp"
+                            android:textSize="20.0sp"
                             android:textStyle="bold"
                             />
 
@@ -77,8 +79,8 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="serif"
                             android:padding="5.0dp"
-                            android:text="Days 60"
-                            android:textSize="20.0dp"
+                            android:text="60 Days"
+                            android:textSize="20.0sp"
                             android:textStyle="bold"
                             />
 
@@ -162,6 +164,7 @@
                 android:orientation="vertical"
                 >
                 <LinearLayout
+                    android:onClick="Intermediate"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
@@ -181,9 +184,9 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="Intermediate"
+                            android:text="@string/intermediate"
                             android:textColor="#ff000000"
-                            android:textSize="20.0dp"
+                            android:textSize="20.0sp"
                             android:textStyle="bold"
                             />
 
@@ -192,8 +195,8 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="serif"
                             android:padding="5.0dp"
-                            android:text="Days 60"
-                            android:textSize="20.0dp"
+                            android:text="@string/days_60"
+                            android:textSize="20.0sp"
                             android:textStyle="bold"
                             />
 
@@ -201,7 +204,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
-                            android:text="Medium Workout"
+                            android:text="@string/medium_workout"
                             android:textColor="#A020F0"
                             android:textStyle="bold"
                             />
@@ -277,6 +280,7 @@
                 android:orientation="vertical"
                 >
                 <LinearLayout
+                    android:onClick="Pro"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
@@ -296,9 +300,9 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="Pro"
+                            android:text="@string/pro"
                             android:textColor="#ff000000"
-                            android:textSize="20.0dp"
+                            android:textSize="20.0sp"
                             android:textStyle="bold"
                             />
 
@@ -307,8 +311,8 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="serif"
                             android:padding="5.0dp"
-                            android:text="Days 60"
-                            android:textSize="20.0dp"
+                            android:text="60 Days"
+                            android:textSize="20.0sp"
                             android:textStyle="bold"
                             />
 
@@ -316,7 +320,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
-                            android:text="Advanced Workout"
+                            android:text="@string/advanced_workout"
                             android:textColor="#A020F0"
                             android:textStyle="bold"
                             />
@@ -378,17 +382,126 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
                 android:background="@drawable/btn"
-                android:text="Get Started"
+                android:text="@string/get_started"
                 android:textAllCaps="true"
                 android:textColor="#FFF"
                 />
 
 
+            <LinearLayout
+                android:onClick="food"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+
+                        android:orientation="vertical"
+
+                        >
+                        
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5.0dp"
+                            android:text="@string/nutrition_tips"
+                            android:textColor="@color/black"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5.dp"
+                            android:text="@string/advice_for_free"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10.0dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                
+                >
+                
+                
+                <FrameLayout
+                    android:id="@+id/f1_Adplaceholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+            </LinearLayout>
 
         </LinearLayout>
-
-
-
 
 
 
