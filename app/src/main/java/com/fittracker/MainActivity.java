@@ -5,11 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import javax.sql.RowSet;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -70,18 +73,33 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if(id == R.id.id_privacy){
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fitonapp.com/privacy/"));
+            startActivity(intent);
             return true;
         }
         if(id == R.id.id_term){
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://fitonapp.com/terms/"));
+            startActivity(intent);
+
             return true;
         }
         if(id == R.id.rate){
+            startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/details?id=com.fiton.android")));
             return true;
         }
         if(id == R.id.more){
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/dev?id=9135627884013724161"));
+            startActivity(intent);
             return true;
         }
         if(id == R.id.share){
+            Intent myIntent = new Intent(Intent.ACTION_SEND);
+            myIntent.setType("text/plain");
+            String sharebody = "Try out this Fitness App! \n It's easy to use and has tons of features. I highly recommend it! \n https://play.google.com/store/apps/details?id=com.fiton.android";
+            String sharehub = "FitTracker";
+            myIntent.putExtra(Intent.EXTRA_SUBJECT,sharehub);
+            myIntent.putExtra(Intent.EXTRA_TEXT,sharebody);
+            startActivity(Intent.createChooser(myIntent,"share using"));
             return true;
         }
         return true;
