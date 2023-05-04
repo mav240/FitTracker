@@ -15,25 +15,66 @@
 
 
     <string-array name="title_story">
-        <item>Build Muscle</item>
-        <item>Drink More Water</item>
-        <item>Keep Moving</item>
-        <item>Count Calories</item>
+        <item>Building Muscle</item>
+        <item>Drinking More Water</item>
+        <item>Being More Active</item>
+        <item>Counting Calories</item>
         <item>Yoga</item>
-        <item>Get More Sleep</item>
-        <item>Vegan Meal Once a Week</item>
-        <item>Go Green</item>
+        <item>Getting More Sleep</item>
+        <item>Eating More Vegetables</item>
+        <item>Eating More Fruit</item>
     </string-array>
 
     <string-array name="details_story">
-        <item>Filler text for building muscle</item>
-        <item>Filler text for drinking more water </item>
-        <item>Filler text for getting 10k steps</item>
-        <item>Filler text for counting calories</item>
-        <item>Filler text for yoga benefits</item>
-        <item>Filler text for benefits of getting sleep</item>
-        <item>Filler text for benefits of making a vegan meal</item>
-        <item>Filler text for benefits of vegetables</item>
-
+        <item>Tips on how to build muscle:
+        Lift Weights: Resistance training is one of the most effective ways to build muscle. Focus on compound exercises such as squats, deadlifts, bench presses, and rows, which engage multiple muscle groups.
+        Progressive Overload: To build muscle, you need to progressively overload your muscles by increasing the weight, reps, or sets over time.
+        Nutrition: Eating a diet that is rich in protein, carbohydrates, and healthy fats is essential for building muscle. Aim to consume a high protein diet, with at least 1 gram of protein per pound of body weight.
+        Rest and Recovery: Allow your muscles to rest and recover after workouts to allow them to repair and grow. Aim for at least 7-8 hours of sleep each night, and take rest days between workouts.Consistency: Building muscle takes time and consistent effort. Aim to work out at least 3-4 times per week, and stay consistent with your nutrition and training plan.</item>
+        <item>Tips on how to drink enough water:
+        Use a Water Bottle: Carry a water bottle with you throughout the day, and sip on it regularly to ensure that you are staying hydrated.
+        Drink Before Meals: Drink a glass of water before each meal to help you feel fuller, and to prevent overeating.
+        Add Flavor: If you find water boring, try adding lemon or lime juice, or infusing it with fruit to add flavor.
+        Monitor Urine Color: Check the color of your urine throughout the day, as it should be a pale yellow color. If it is darker, it may be a sign that you need to drink more water.</item>
+        <item>Ways to be more active and incorporate physical activity into your daily routine:
+        Walking: Walking is a great way to be more active. Try to walk for at least 30 minutes per day, or take a walk during your lunch break.
+        Cycling: Cycling is another great way to get moving. If you dont have a bike, consider renting one or using a stationary bike at the gym.
+        Swimming: Swimming is a low-impact exercise that is great for cardiovascular health and muscle strength. Try swimming laps or taking a water aerobics class.
+        Group Fitness Classes: Joining a group fitness class such as yoga, Zumba, or Pilates can be a fun and social way to be active.
+        Household Chores: Doing household chores such as cleaning, gardening, or yard work can also help you to be more active.
+        Sports: Joining a local sports league or playing a pick-up game with friends can be a fun way to get moving.
+        Standing Desks: Consider using a standing desk at work to help reduce sedentary behavior.</item>
+        <item>Tips on how to count calories:
+        Determine your daily calorie needs: Use a calorie calculator to determine your daily calorie needs based on your age, gender, weight, height, and activity level.
+        Use a Food Diary: Keep a food diary to track the foods you eat and their calorie content. You can use a paper diary or a smartphone app.
+        Measure Portions: Use measuring cups and a food scale to accurately measure portions and determine the calorie content.
+        Read Labels: Read food labels to determine the calorie content of packaged foods.</item>
+        <item>Here are some tips to help you get started with Yoga:
+        Find a comfortable space: Find a quiet and comfortable space with enough room to move around. Ideally, this should be a peaceful and calming environment where you can relax and focus on your practice.
+        Start with the basics: If youre new to yoga, start with the basic poses and gradually work your way up to more challenging ones. Dont worry about keeping up with others in the class, and focus on your own practice.</item>
+        <item>Here are some ways to help you get enough sleep:
+        Stick to a schedule: Try to go to bed and wake up at the same time every day, even on weekends. This helps to regulate your bodys internal clock and improve the quality of your sleep.
+        Create a sleep-conducive environment: Make sure your bedroom is dark, quiet, and cool, and that your mattress and pillows are comfortable.
+        Limit screen time before bed: Avoid using electronic devices such as smartphones, tablets, and laptops before bed, as the blue light they emit can interfere with sleep.
+        Relax before bed: Try relaxation techniques such as reading a book, taking a warm bath, or listening to calming music before bed to help you unwind and fall asleep more easily.
+        Avoid stimulants: Avoid consuming caffeine, alcohol, and nicotine before bed, as they can interfere with your ability to fall asleep and stay asleep.
+        Exercise regularly: Regular exercise can help to improve sleep quality and duration, but avoid exercising too close to bedtime, as it can make it harder to fall asleep.
+        Manage stress: Find ways to manage stress, such as practicing yoga, meditation, or deep breathing exercises, to reduce anxiety and promote relaxation.</item>
+        <item>Here are some ways to help you eat more vegetables:
+        Add vegetables to your meals: Add vegetables to meals you already enjoy, such as soups, stir-fries, omelets, sandwiches, and pasta dishes. This can help you increase your vegetable intake without having to drastically change your diet.
+        Snack on vegetables: Keep cut-up vegetables such as carrots, cucumbers, celery, and peppers in the fridge for a quick and healthy snack.
+        Experiment with new recipes: Try new recipes that feature vegetables as the main ingredient. You can find a wealth of recipes online or in cookbooks that focus on vegetarian or plant-based meals.
+        Make vegetable-based dips: Pair vegetables with healthy dips such as hummus, guacamole, or salsa to make them more appealing and flavorful.
+        Use vegetables as a base: Use vegetables as a base for your meals, such as making cauliflower rice, zucchini noodles, or spaghetti squash.
+        Make smoothies: Add vegetables such as spinach, kale, or carrots to your smoothies for an easy and tasty way to increase your vegetable intake.
+        Make vegetable soups: Make soups with vegetables as the main ingredient, such as tomato, broccoli, or cauliflower soup.</item>
+        <item>Here are some tips to help you eat more fruits:
+        Keep fruit visible and accessible: Keep a bowl of fruit on your kitchen counter or in a visible place in your office to remind you to eat more fruit.
+        Add fruit to your breakfast: Add sliced fruit to your breakfast cereal, oatmeal, or yogurt to start your day with a healthy dose of fruit.
+        Snack on fruit: Keep cut-up fruit in the fridge for a quick and healthy snack. Apples, oranges, bananas, grapes, and berries are all great options.
+        Use fruit as a sweetener: Use mashed bananas, dates, or applesauce to sweeten baked goods instead of sugar.
+        Make fruit smoothies: Blend your favorite fruits with yogurt or milk for a quick and easy smoothie.
+        Try dried fruit: Dried fruit such as apricots, raisins, or figs are a great snack option and can also be added to salads or oatmeal.
+        Use fruit as a topping: Add sliced fruit to pancakes, waffles, or oatmeal instead of syrup.</item>
     </string-array>
 </resources>
