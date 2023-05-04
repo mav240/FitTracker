@@ -11,7 +11,29 @@
     <string name="nutrition_tips">Nutrition Tips</string>
 
 
-
-
     <string name="pose1">   Filler Text for pose1</string>
+
+
+    <string-array name="title_story">
+        <item>Build Muscle</item>
+        <item>Drink More Water</item>
+        <item>Keep Moving</item>
+        <item>Count Calories</item>
+        <item>Yoga</item>
+        <item>Get More Sleep</item>
+        <item>Vegan Meal Once a Week</item>
+        <item>Go Green</item>
+    </string-array>
+
+    <string-array name="details_story">
+        <item>Filler text for building muscle</item>
+        <item>Filler text for drinking more water </item>
+        <item>Filler text for getting 10k steps</item>
+        <item>Filler text for counting calories</item>
+        <item>Filler text for yoga benefits</item>
+        <item>Filler text for benefits of getting sleep</item>
+        <item>Filler text for benefits of making a vegan meal</item>
+        <item>Filler text for benefits of vegetables</item>
+
+    </string-array>
 </resources>
