@@ -11,7 +11,21 @@
     <string name="nutrition_tips">Nutrition Tips</string>
 
 
-    <string name="pose1">   Filler Text for pose1</string>
+    <string name="pose1">Mountain Climber \n 1) Assume a high plank position with your hands shoulder-width apart and your core engaged. \n 2)Alternate bringing your knees to your chest quickly and smoothly, as if you are running in place.</string>
+    <string name="pose2">Basic Crunches \n 1) Lie on your back with your knees bent and your hands behind your head. \n 2) Use your abdominal muscles to lift your shoulders off the ground, then lower back down.</string>
+    <string name="pose3">Bench Dips \n 1) Sit on the edge of a bench with your hands next to your hips and your feet flat on the ground. \n 2)Lower your body towards the ground by bending your elbows, then push yourself back up to the starting position.</string>
+    <string name="pose4">Bicycle Crunches \n 1) Lie on your back with your hands behind your head and your knees bent. \n 2)Bring your left elbow to your right knee while straightening your left leg, then repeat on the other side, alternating sides in a pedaling motion.</string>
+    <string name="pose5">Leg Raises \n 1) Lie on your back with your legs straight and your hands at your sides. \n 2) Use your lower abdominal muscles to lift your legs off the ground, then lower them back down.</string>
+    <string name="pose6">Alternative Heel Touches \n 1) Lie on your back with your knees bent and your hands by your sides. \n 2) Reach across your body with your right hand to touch your left heel, then reach across with your left hand to touch your right heel, alternating sides.</string>
+    <string name="pose7">Leg Up Crunches \n 1) Lie on your back with your legs straight up in the air and your hands behind your head. 2) Use your abdominal muscles to lift your shoulders off the ground towards your legs, then lower back down.</string>
+    <string name="pose8">Sit Ups \n 1) Lie on your back with your knees bent and your hands behind your head. \n 2) Use your abdominal muscles to lift your shoulders off the ground towards your knees, then lower back down.</string>
+    <string name="pose9">Alternative V Ups \n 1) Lie on your back with your legs straight and your arms extended overhead. \n 2) Use your abdominal muscles to lift your right leg and upper body off the ground, reaching your hands towards your toes, then lower back down and repeat on the other side.</string>
+    <string name="pose10">Plank Rotation \n 1) Assume a high plank position with your hands shoulder-width apart. \n 2) Rotate your body to the right, lifting your right arm towards the ceiling, then return to the starting position and repeat on the other side.</string>
+    <string name="pose11">Plank with Single Leg \n 1) Assume a high plank position with your hands shoulder-width apart. \n 2) Lift one leg off the ground while maintaining a straight line from your head to your heels, hold for desired amount of time, then switch legs.</string>
+    <string name="pose12">Russian Twist \n 1) Sit on the ground with your knees bent and your feet flat on the floor, leaning back slightly. \n 2) Rotate your torso to the right, then to the left, while holding a weight or touching the ground with your hands at each side.</string>
+    <string name="pose13">Bridges \n 1) Lie on your back with your knees bent and your feet flat on the ground. \n 2) Lift your hips towards the ceiling, squeezing your glutes and keeping your shoulders and feet on the ground.</string>
+    <string name="pose14">Vertical Leg Crunches \n 1) Lie on your back with your legs extended straight up in the air and your hands behind your head. \n 2) Use your abdominal muscles to lift your shoulders off the ground towards your feet, then lower back down.</string>
+    <string name="pose15">Wind Mill \n 1) Stand with your feet wider than shoulder-width apart, arms out to the sides. \n 2)Hinge at the hips and reach your right hand towards your left foot, then return to the starting position and repeat on the other side.</string>
 
 
     <string-array name="title_story">
